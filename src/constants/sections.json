@@ -1,0 +1,8 @@
+[
+  { "title": "Technology", "url": "/technology" },
+  { "title": "Fashion", "url": "/fashion" },
+  { "title": "Business", "url": "/business" },
+  { "title": "Movies", "url": "/movies" },
+  { "title": "Sports", "url": "/sports" },
+  { "title": "Travel", "url": "/travel" }
+]
