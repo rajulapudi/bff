@@ -46,7 +46,7 @@ export async function getStaticProps() {
   var url =
     "http://newsapi.org/v2/top-headlines?" +
     "country=us&" +
-    "apiKey=0240a9dd31d04b97bf86032f73859a6a";
+    `apiKey=${process.env.NEWSAPI}`;
   const res = await fetch(url);
   const response = await res.json();
   const posts = response.articles;
